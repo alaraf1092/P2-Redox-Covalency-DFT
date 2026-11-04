@@ -1,0 +1,2 @@
+calculation_id,composition,stacking,na_content,encut,kmesh,ud_fe,ud_mn,dispersion,vasp_version,job_id,status,energy_ev,walltime,su_consumption
+PARENT_P2_X067_001,Na0.667Fe0.5Mn0.5O2,P2,0.667,550,2x2x1,4,5,D3,6.3.2,,pending,,,
