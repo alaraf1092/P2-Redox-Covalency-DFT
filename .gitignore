@@ -1,0 +1,48 @@
+
+# VASP licensed files
+POTCAR
+POTCAR.*
+POTCAR_*
+
+# VASP executables and source archives
+vasp_std
+vasp_gam
+vasp_ncl
+*.tgz
+*.tar.gz
+
+# Large VASP output files
+WAVECAR*
+CHGCAR*
+AECCAR*
+PROCAR
+DOSCAR
+EIGENVAL
+OUTCAR
+CONTCAR
+vasprun.xml*
+vaspout.h5
+IBZKPT
+OSZICAR
+REPORT
+
+# Slurm output
+slurm-*.out
+*.err
+
+# Python environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and credentials
+.env
+*.pem
+id_rsa*
+id_ed25519*
+
+# Temporary files
+*.tmp
+*~
+
