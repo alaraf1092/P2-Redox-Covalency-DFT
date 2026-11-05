@@ -1,0 +1,4 @@
+[split 4:8] kept 3 distinct; lowest Ewald -2082.467 eV
+[split 6:6] kept 3 distinct; lowest Ewald -2082.001 eV
+[split 2:10] kept 3 distinct; lowest Ewald -2081.750 eV
+9 candidates in 02_structures/parent_1to1/seed_31/ (ranked in summary.csv); matrix vs direct Ewald check: max |diff| = 1.66e-10 eV
