@@ -1,0 +1,3 @@
+spin,VBM_eV,CBM_eV,estimated_indirect_gap_eV,status
+up,3.558055,4.443369,0.885314,Preliminary; cross-check DOS and k-point convergence
+down,2.378205,4.93751,2.559305,Preliminary; cross-check DOS and k-point convergence

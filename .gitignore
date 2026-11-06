@@ -46,3 +46,16 @@ id_ed25519*
 *.tmp
 *~
 
+
+# Additional VASP and Bader raw outputs
+**/CHG
+**/PCDAT
+**/XDATCAR
+**/ACF.dat
+**/AVF.dat
+**/BCF.dat
+**/CHGCAR_sum
+**/AECCAR*
+
+# Raw Bader analysis CSVs inside calculation directories
+**/bader_analysis/*.csv

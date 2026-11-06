@@ -1,0 +1,45 @@
+SYSTEM = P2_Na067_Fe05_Mn05_FM_PBEU_preD3
+
+# Electronic structure
+PREC   = Accurate
+ENCUT  = 550
+EDIFF  = 1E-6
+ALGO   = Normal
+NELM   = 120
+
+# Spin polarisation
+ISPIN  = 2
+MAGMOM = 12*0 9*5 3*4 6*3 36*0
+
+# DFT+U: Dudarev approach
+LDAU      = .TRUE.
+LDAUTYPE  = 2
+LDAUL     = -1 2 2 -1
+LDAUU     = 0 4 5 0
+LDAUJ     = 0 0 0 0
+LMAXMIX   = 4
+LASPH     = .TRUE.
+
+# Ionic relaxation: fixed cell initially
+IBRION  = 2
+NSW     = 150
+ISIF    = 2
+EDIFFG  = -0.02
+
+# Smearing
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Projection and output
+LREAL  = Auto
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+
+# Dispersion correction:
+# Confirm Oxford's exact D3 damping convention first.
+# IVDW = 11  (D3 zero damping)
+# IVDW = 12  (D3 Becke-Johnson damping)
+
+# Parallelization
+NCORE = 4
+KPAR  = 1

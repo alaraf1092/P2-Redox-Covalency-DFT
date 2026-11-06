@@ -1,0 +1,5 @@
+species,atom_count,mean_Bader_electrons,mean_net_charge_e
+Na,12,6.136391,+0.863609
+Fe,9,12.232041,+1.767959
+Mn,9,11.195984,+1.804016
+O,36,7.180864,-1.180864

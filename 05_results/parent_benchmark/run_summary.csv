@@ -1,0 +1,4 @@
+run,job_id,state,exit_code,method,kmesh,ISIF,IVDW,ionic_steps,max_force_eV_A,TOTEN_eV,Edisp_eV,total_magnetization_muB,elapsed,allocated_cpus,CPU_SU
+run01,21960601,COMPLETED,0:0,PBE+U,2x2x1,2,off,44,0.01407,-411.00791945,,75.0,04:40:50,16,74.8896
+run02,21977409,COMPLETED,0:0,PBE+U+D3-zero,2x2x1,3,11,105,0.009593,-422.63844186,-10.98039,75.0,10:53:13,16,174.1904
+run03,21997249,COMPLETED,0:0,PBE+U+D3-zero static,3x3x2,2,11,0,,-422.66929102,-10.98039,75.0000007,00:32:48,16,

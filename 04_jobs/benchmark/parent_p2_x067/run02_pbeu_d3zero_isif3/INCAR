@@ -1,0 +1,55 @@
+SYSTEM = P2_parent_PBEU_D3zero_cellrelax
+
+# Electronic structure
+PREC   = Accurate
+ENCUT  = 550
+EDIFF  = 1E-6
+ALGO   = Normal
+NELM   = 120
+
+# Spin polarisation
+ISPIN  = 2
+MAGMOM = 12*0 9*5 3*4 6*3 36*0
+
+# DFT+U: Dudarev approach
+LDAU      = .TRUE.
+LDAUTYPE  = 2
+LDAUL     = -1 2 2 -1
+LDAUU     = 0 4 5 0
+LDAUJ     = 0 0 0 0
+LMAXMIX   = 4
+LASPH     = .TRUE.
+
+# Ionic relaxation: fixed cell initially
+IBRION  = 2
+NSW = 200
+ISIF = 3
+EDIFFG = -0.01
+
+# Smearing
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Projection and output
+LREAL  = Auto
+LWAVE = .TRUE.
+LCHARG = .TRUE.
+
+# Dispersion correction:
+# Confirm Oxford's exact D3 damping convention first.
+# IVDW = 11  (D3 zero damping)
+# IVDW = 12  (D3 Becke-Johnson damping)
+
+# Parallelization
+NCORE = 4
+KPAR = 4
+
+# D3 dispersion: provisional zero-damping convention
+IVDW = 11
+
+# Site-resolved magnetic projections
+LORBIT = 11
+
+# Fresh electronic initialization from the relaxed geometry
+ISTART = 0
+ICHARG = 2

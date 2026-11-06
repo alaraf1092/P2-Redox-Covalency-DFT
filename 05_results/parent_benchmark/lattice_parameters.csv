@@ -1,0 +1,9 @@
+parameter,value,unit,notes
+supercell_vector_1_length,8.857340,Angstrom,Run 02 CONTCAR
+supercell_vector_2_length,8.946574,Angstrom,Run 02 CONTCAR
+supercell_vector_3_length,11.184556,Angstrom,Run 02 CONTCAR
+in_plane_1_normalized,2.952447,Angstrom,Vector length divided by 3
+in_plane_2_normalized,2.982191,Angstrom,Vector length divided by 3
+c_like_length,11.184556,Angstrom,Vector length
+cell_volume,769.209126,Angstrom^3,Absolute lattice determinant
+volume_per_formula_unit,42.733840,Angstrom^3,18 formula units

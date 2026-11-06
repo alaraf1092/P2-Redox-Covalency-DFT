@@ -1,0 +1,50 @@
+SYSTEM = P2_parent_static_PBEU_D3zero_3x3x2
+
+# Electronic structure
+PREC   = Accurate
+ENCUT  = 550
+EDIFF  = 1E-7
+ALGO   = Normal
+NELM   = 150
+
+# Spin polarization: retain Run 02 magnetic arrangement
+ISPIN  = 2
+MAGMOM = 12*0 9*5 1*4 6*3 2*4 36*0
+
+# Dudarev PBE+U
+LDAU      = .TRUE.
+LDAUTYPE  = 2
+LDAUL     = -1 2 2 -1
+LDAUU     = 0 4 5 0
+LDAUJ     = 0 0 0 0
+LMAXMIX   = 4
+LASPH     = .TRUE.
+
+# Static calculation
+IBRION = -1
+NSW    = 0
+ISIF   = 2
+
+# Smearing
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Dispersion: provisional D3 zero damping
+IVDW = 11
+
+# Charge-density restart
+ISTART = 0
+ICHARG = 1
+
+# Accurate projections and charge density
+LREAL     = .FALSE.
+LORBIT    = 11
+NEDOS     = 3000
+LCHARG    = .TRUE.
+LWAVE     = .FALSE.
+LAECHG    = .TRUE.
+LADDGRID  = .TRUE.
+
+# Parallelization
+NCORE = 4
+KPAR  = 2

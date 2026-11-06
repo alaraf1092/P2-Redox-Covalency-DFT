@@ -1,0 +1,26 @@
+Structure: P2-Na0.67Fe0.5Mn0.5O2
+Supercell: 3x3x1
+Atoms: 66
+Composition: Na12Fe9Mn9O36
+
+Na_f:Na_e = 4:8
+
+Starting lattice:
+a = 2.9405 Angstrom
+c = 11.1957 Angstrom
+zO = 0.093
+
+Geometry source:
+Related Fe-Mn experimental refinement.
+Not an exact refinement of the target 1:1 composition.
+
+Ordering:
+Ewald-ranked candidate.
+Seed 7 / best-found seed 31 result.
+
+Ewald energy:
+-2082.4670752984 eV
+
+Status:
+Awaiting DFT structural relaxation.
+Not a DFT ground-state structure.
