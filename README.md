@@ -71,3 +71,25 @@ are excluded from this repository.
 ## Status
 
 Project setup and computational benchmarking.
+
+
+## Verified Parent Benchmark (November 2026)
+
+The 66-atom Na12Fe9Mn9O36 P2 parent benchmark has
+completed multiple PBE+U+D3 relaxation, magnetic
+configuration and matched-static calculations.
+
+The lowest energy among the tested matched-static
+configurations is Run03 (-422.66929102 eV/cell).
+
+Two tight-relaxed Mn22/24/29 branches retain an
+energy difference of 59.68867 meV/cell.
+
+These results do not establish a global ground state
+or prove distinct metastable minima.
+
+- [Parent benchmark](docs/parent_benchmark.md)
+- [Computational methodology](docs/methodology.md)
+- [Reproducibility](docs/reproducibility.md)
+- [Research references](docs/references.md)
+- [Project status](00_admin/PROJECT_STATUS.md)
