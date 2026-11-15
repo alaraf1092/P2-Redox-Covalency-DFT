@@ -82,4 +82,5 @@ The parent benchmark is a verified checkpoint,
 not proof of a global ground-state configuration.
 
 Final dense statics on the tight-relaxed geometries
-and additional electronic analyses remain pending.
+completed as Run05E and Run06F. Further magnetic
+sampling and electronic analyses remain pending.

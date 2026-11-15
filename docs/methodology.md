@@ -60,8 +60,9 @@ Reference static calculations:
 
 Run03, Run05C and Run06D follow matched static settings.
 
-Final dense static calculations on the tighter
-Run05D and Run06E geometries remain pending.
+Final 3x3x2 static calculations on the tightly relaxed
+Run05D and Run06E geometries completed as Run05E
+and Run06F on 2026-11-15.
 
 ## Magnetic and structural analysis
 

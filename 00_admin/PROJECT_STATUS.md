@@ -16,6 +16,8 @@ Purdue Anvil HPC
 - Bader and Mn-O distortion analyses performed
 - Controlled Jahn-Teller seeding tests completed
 - Run05D and Run06E tight relaxations completed
+- Run05E and Run06F final 3x3x2 statics completed
+- Final Mn22/24/29 magnetic moments verified
 - Symmetry-aware structural comparisons performed
 - Verified parent benchmark archive created
 
@@ -35,9 +37,21 @@ Energy separation:
 Both tight-relaxed branches retain higher
 Mn moments at sites 22, 24 and 29.
 
+## Final static checkpoint
+
+Run05E = -422.40764591 eV/cell
+
+Run06F = -422.34836675 eV/cell
+
+Run06F - Run05E = 0.05927916 eV/cell
+(3.293287 meV/f.u.).
+
+Both final static calculations passed electronic
+convergence checks and retain higher Mn moments
+at Mn22, Mn24 and Mn29.
+
 ## Pending
 
-- Final dense statics on tight geometries
 - Additional magnetic configuration sampling
 - Orbital and projected DOS analysis
 - D3 literature-method verification
