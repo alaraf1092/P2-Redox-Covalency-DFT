@@ -107,16 +107,49 @@ and Mn4+-like assignments.
 Local magnetic moments and Bader charges are not
 formal oxidation-state measurements.
 
+## Final tight-geometry static checkpoint (2026-11-15)
+
+The final 3x3x2 calculations on the tightly relaxed
+Run05D and Run06E geometries have completed.
+
+| Run | Geometry source | Total energy (eV/cell) | Slurm job |
+|---|---|---:|---|
+| Run05E | Run05D | -422.40764591 | 22218745 |
+| Run06F | Run06E | -422.34836675 | 22218746 |
+
+Both jobs completed with Slurm exit code 0:0.
+Both passed electronic convergence and VASP footer checks.
+
+Final site-projected magnetic moments retain the
+three largest Mn moments at Mn22, Mn24 and Mn29.
+
+Run06F - Run05E:
+
+- 0.05927916 eV per 66-atom cell
+- 3.293287 meV per formula unit
+
+Relative to the matched static Run03 reference:
+
+- Run05E: 14.535839 meV/f.u. higher
+- Run06F: 17.829126 meV/f.u. higher
+
+These results strengthen the ordering of the tested
+configurations under the matched static protocol.
+
+They do not prove distinct metastable minima or a
+global magnetic/structural ground state.
+
+Source table:
+[Final static CSV](../05_results/parent_benchmark/tight_static_final_2026-11.csv)
+
 ## Outstanding work
 
-1. Dense static calculations on tight geometries
-   (proposed Run05E and Run06F).
-2. Additional magnetic-ordering tests.
-3. Orbital occupation and projected DOS analysis.
-4. Literature verification of D3 damping convention.
-5. Na extraction and redox analysis.
-6. Mg, Al, Si and Ti doping comparisons.
-7. P2/O2 stacking and migration studies.
+1. Additional magnetic-ordering and convergence tests.
+2. Orbital occupation and projected DOS analysis.
+3. Literature verification of D3 damping convention.
+4. Na extraction and redox analysis.
+5. Mg, Al, Si and Ti doping comparisons.
+6. P2/O2 stacking and migration studies.
 
 ## Data retention
 

@@ -1,0 +1,3 @@
+run,job_id,source_geometry,energy_eV_cell,high_moment_Mn,Mn22_muB,Mn23_muB,Mn24_muB,Mn25_muB,Mn26_muB,Mn27_muB,Mn28_muB,Mn29_muB,Mn30_muB
+Run05E,22218745,Run05D,-422.40764591,"22,24,29",3.932,3.321,3.931,3.301,3.32,3.316,3.32,3.947,3.315
+Run06F,22218746,Run06E,-422.34836675,"22,24,29",3.934,3.335,3.93,3.302,3.32,3.315,3.319,3.942,3.316

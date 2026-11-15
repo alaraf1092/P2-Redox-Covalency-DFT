@@ -93,3 +93,16 @@ or prove distinct metastable minima.
 - [Reproducibility](docs/reproducibility.md)
 - [Research references](docs/references.md)
 - [Project status](00_admin/PROJECT_STATUS.md)
+
+### Final 3x3x2 tight-geometry statics (2026-11-15)
+
+Run05E: -422.40764591 eV/cell.
+Run06F: -422.34836675 eV/cell.
+
+The energy separation is 3.293287 meV/f.u.,
+with Run05E lower.
+
+Both retain the Mn22/24/29 higher-moment pattern.
+
+See the [final static benchmark CSV](05_results/parent_benchmark/tight_static_final_2026-11.csv)
+and [benchmark interpretation](docs/parent_benchmark.md).
