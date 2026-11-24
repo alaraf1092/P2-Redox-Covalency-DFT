@@ -1,0 +1,4 @@
+composition,x_na_per_fu,candidate,energy_eV_per_18fu_cell,gap_eV_from_EIGENVAL_occu_tol_1e-3,mn3like_parent_sites
+Na12,0.666667,parent_run03,-422.66929102,0.8853,22;29;30
+Na11,0.611111,Vac11,-418.24829804,0.4249,29;30
+Na10,0.555556,CL_farthest_Na01_Na04,-414.08700598,1.0146,29

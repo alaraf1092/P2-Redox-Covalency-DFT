@@ -1,0 +1,12 @@
+descriptor,Vac11,Vac01,units_or_notes
+Na12_whole_O_p_projection,124.124457,124.124457,occupied projected electrons; parent baseline
+Na11_whole_O_p_projection,124.014355,124.014955,occupied projected electrons
+whole_cell_delta_O_p,-0.110102,-0.109502,relative to Na12
+Mn22_O6_delta_O_p,-0.077563,-0.065479,signed shell sum vs Na12
+Mn22_O6_negative_sites,6,6,out of 6
+Mn22_O6_absolute_response_share_percent,35.80,36.37,"percentage of sum |site changes|, not charge transfer"
+Mn22_O6_per_site_enrichment,2.788,2.858,relative to average per-site |change| of other 30 O
+Mn30_O6_signed_delta,0.025685,0.000973,occupied projected electrons
+Pearson_r_across_36_sites,0.62722,0.62722,one cross-configuration statistic
+matching_signs_across_36_sites,23,23,one cross-configuration statistic; out of 36
+total_abs_sitewise_difference_between_vacancies,0.158823,0.158823,one cross-configuration statistic

@@ -1,0 +1,10 @@
+composition,candidate,parent_mn_index,current_POSCAR_index,VASPKIT_signed_d_polarization,pymatgen_signed_d_polarization,delta_vaspkit_minus_pymatgen
+Na12,parent_run03,22,22,3.85814,3.85834,-0.00020
+Na12,parent_run03,29,29,3.87565,3.87573,-0.00008
+Na12,parent_run03,30,30,3.85819,3.85833,-0.00014
+Na11,Vac11,22,21,3.26422,3.26416,0.00006
+Na11,Vac11,29,28,3.86222,3.86225,-0.00003
+Na11,Vac11,30,29,3.85024,3.85022,0.00002
+Na10,CL_farthest_Na01_Na04,22,20,3.25342,3.25337,0.00005
+Na10,CL_farthest_Na01_Na04,29,27,-3.81907,-3.81915,0.00008
+Na10,CL_farthest_Na01_Na04,30,28,3.23370,3.23356,0.00014

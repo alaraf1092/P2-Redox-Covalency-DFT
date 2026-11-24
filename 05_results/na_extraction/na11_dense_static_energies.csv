@@ -1,0 +1,6 @@
+rank,vacancy,energy_eV_per_18fu_cell,relative_to_vac11_meV_per_fu,above_sampled_tieline_meV_per_fu,static_mesh,converged_electronic
+1,Vac11,-418.24829804,0.000,7.2139,3x3x2,TRUE
+2,Vac03,-418.23008823,1.012,8.2256,3x3x2,TRUE
+3,Vac05,-418.18044974,3.769,10.9833,3x3x2,TRUE
+4,Vac01,-417.96101912,15.960,23.1739,3x3x2,TRUE
+5,Vac04,-417.91088995,18.745,25.9588,3x3x2,TRUE

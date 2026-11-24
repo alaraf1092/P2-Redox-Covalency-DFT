@@ -106,3 +106,20 @@ Both retain the Mn22/24/29 higher-moment pattern.
 
 See the [final static benchmark CSV](05_results/parent_benchmark/tight_static_final_2026-11.csv)
 and [benchmark interpretation](docs/parent_benchmark.md).
+
+<!-- NA_EXTRACTION_CHECKPOINT_2026_11_24_START -->
+
+## Na-extraction electronic-structure checkpoint (November 2026)
+
+We have evaluated selected Na$_x$Fe$_{0.5}$Mn$_{0.5}$O$_2$ configurations at $x=0.667$, $0.611$ and $0.556$ in an 18-formula-unit P2 supercell. The sampled lowest-energy dense-static Na$_{11}$ configuration is **Vac11** ($E=-418.24829804$ eV per cell). It lies **+7.2139 meV/f.u.** above the tie-line connecting the *sampled* Na$_{12}$ and Na$_{10}$ endpoints. This is **not** a global phase-stability conclusion.
+
+Site-resolved local-moment, Mn–O geometry and projected spin data support a **3 → 2 → 1** Mn$^{3+}$-like-site progression across these selected states. All six Mn22 oxygen ligands decrease in occupied projected O $p$ population for two distinct Na$_{11}$ vacancies, while the wider 36-site response remains vacancy-dependent. Projected orbital occupations are not formal charges or oxygen-hole counts.
+
+- [Na-extraction documentation index](docs/na_extraction/README.md)
+- [Matched static energetics](docs/na_extraction/energetics.md)
+- [Mn-centered redox](docs/na_extraction/mn_redox.md)
+- [Oxygen-ligand response](docs/na_extraction/oxygen_ligand.md)
+- [Reproducibility and figure provenance](docs/na_extraction/reproducibility.md)
+- [Results and Discussion working draft](08_manuscript/na_extraction_results_draft.md)
+
+<!-- NA_EXTRACTION_CHECKPOINT_2026_11_24_END -->
